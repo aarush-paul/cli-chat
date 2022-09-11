@@ -1,7 +1,7 @@
 # ![Cli-Chat](https://i.ibb.co/W6n99JQ/repository-open-graph-template.png)
 # cli-chat
 
-Introducing cli-chat, a new way to talk to your dev friends. Fire up two commands and hope into your very own chat room!
+Introducing cli-chat, a new way to talk to your dev friends. Fire up two commands and hop into your very own chat room!
 
 # Prerequisites
 To run this, `nodejs` needs to be installed. Install it using `winget install nodejs` in windows or `sudo apt-get install nodejs` in linux.
