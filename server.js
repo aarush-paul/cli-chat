@@ -7,7 +7,7 @@ const users = {};
 const ngrok = require('ngrok');
 (async function() {
     const url = await ngrok.connect(3000);
-    console.log("Your chat url is:  " + url + ". Send to you friends and ask them to paste this link in the console after running npm join-a-room command");
+    console.log("Your chat url is:  " + url + ". Send to you friends and ask them to paste this link in the console after running npm run join-a-room command");
 })();
 console.log(" ");
 console.log("=====CHAT SERVER LOGS(Press CTRL+Q to destroy room)=====");
