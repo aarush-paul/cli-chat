@@ -24,6 +24,4 @@ Run `git https://github.com/aarush-paul/cli-chat` where you want to download the
  - No moderation 
  - No multimedia support
  - No message delete option
- - 
-
  
