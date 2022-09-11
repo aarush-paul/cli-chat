@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "host-a-room": "node server.js",
-    "join-a-room": "node client.js"
+    "join-a-room": "node index.js"
   },
   "author": "Aarush Paul",
   "license": "ISC",
