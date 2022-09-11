@@ -1,3 +1,4 @@
+# ![Cli-Chat](https://i.ibb.co/W6n99JQ/repository-open-graph-template.png)
 # Cli-Chat
 
 Introducing cli-chat, a new way to talk to your dev friends. Fire up two commands and hope into your very own chat room!
@@ -23,7 +24,6 @@ Run `git https://github.com/aarush-paul/cli-chat` where you want to download the
  - No moderation 
  - No multimedia support
  - No message delete option
- - No message edit option
-
+ - 
 
  
