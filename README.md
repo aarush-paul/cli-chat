@@ -12,8 +12,8 @@ Run `git clone https://github.com/aarush-paul/cli-chat` where you want to downlo
 
 # How to use
 
-- **To create a chat room:** Run `npm create-a-room` and share the url which is generated to your friends!
-- **To join a chat room:** Run `npm join-a-room` and enter the url sent by the host
+- **To create a chat room:** Run `npm run create-a-room` and share the url which is generated to your friends!
+- **To join a chat room:** Run `npm run join-a-room` and enter the url sent by the host
 
 # Features 
 
