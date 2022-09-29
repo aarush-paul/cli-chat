@@ -10,24 +10,20 @@ const rl = readline.createInterface({
   input: process.stdin,
 });
 
+console.log("What is your name?");
+rl.question("What is your name?", (text) => {
+    socket.emit('new user', text.trim());
+    console.log("You joined the chat");
+    process.stdout.write("> ");
+});
+
 socket.on("message", (text) => {
     process.stdout.write("\r\x1b[K")
     console.log(text);
     process.stdout.write("> ");
-    const auth = 'true';
 });
 
-if (auth == "true"){
-    console.log("What is your name?");
-    rl.question("What is your name?", (text) => {
-        socket.emit('new user', text.trim());
-        console.log("You joined the chat");
-        process.stdout.write("> ");
-    });
-}
-else{
-    console.log("fatal error, please submit a bug report at https://github.com/aarush-paul/cli-chat/issues")
-};
+
 
 rl.prompt();
 
