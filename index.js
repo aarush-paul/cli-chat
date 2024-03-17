@@ -11,7 +11,7 @@ console.log(chalk.bold.blue("██║░░██╗██║░░░░░█
 console.log(chalk.bold.blue("╚█████╔╝███████╗██║  ╚█████╔╝██║░░██║██║░░██║░░░██║░░░"));
 console.log(chalk.bold.blue("░╚════╝░╚══════╝╚═╝  ░╚════╝░╚═╝░░╚═╝╚═╝░░╚═╝░░░╚═╝░░░"));
 console.log(" ");
-console.log(chalk.bold.bgBlue.white("Made By Aarush Paul"));
+console.log(chalk.bold.blue("Made By Aarush Paul"));
 console.log(chalk.yellow("https://github.com/aarush-paul/cli-chat"));
 console.log(" ");
 console.log(" ");
@@ -57,6 +57,9 @@ rl.question("What is your name?", (text) => {
     console.log(" ");
     process.stdout.write("> ");
     socket.on("message", (text) => {
+        if (text == "") {
+            console.log(chalk.bgRed("You did not enter a message(nigger)"));
+        }
         process.stdout.write("\r\x1b[K")
         console.log(text);
         process.stdout.write("> ");
