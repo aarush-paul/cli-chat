@@ -57,9 +57,6 @@ rl.question("What is your name?", (text) => {
     console.log(" ");
     process.stdout.write("> ");
     socket.on("message", (text) => {
-        if (text == "") {
-            console.log(chalk.bgRed("You did not enter a message(nigger)"));
-        }
         process.stdout.write("\r\x1b[K")
         console.log(text);
         process.stdout.write("> ");
