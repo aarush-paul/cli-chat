@@ -1,15 +1,19 @@
+
+
 console.clear();
 const io = require('socket.io-client');
 const prompt = require('prompt-sync')();
 const chalk = require("chalk");
 
 console.clear();
-console.log(chalk.bold.blue(" █████╗ ██╗     ██╗   █████╗ ██╗  ██╗ █████╗ ████████╗"));
-console.log(chalk.bold.blue("██╔══██╗██║░░░░░██║  ██╔══██╗██║░░██║██╔══██╗╚══██╔══╝"));
-console.log(chalk.bold.blue("██║░░╚═╝██║░░░░░██║  ██║░░╚═╝███████║███████║░░░██║░░░"));
-console.log(chalk.bold.blue("██║░░██╗██║░░░░░██║  ██║░░██╗██╔══██║██╔══██║░░░██║░░░"));
-console.log(chalk.bold.blue("╚█████╔╝███████╗██║  ╚█████╔╝██║░░██║██║░░██║░░░██║░░░"));
-console.log(chalk.bold.blue("░╚════╝░╚══════╝╚═╝  ░╚════╝░╚═╝░░╚═╝╚═╝░░╚═╝░░░╚═╝░░░"));
+console.log(chalk.bold.blue("          ▄▄                                      "));
+console.log(chalk.bold.blue("        ▀███           ██    ██                   "));
+console.log(chalk.bold.blue("          ██           ██    ██                   "));
+console.log(chalk.bold.blue(" ▄██▀██   ██  ▄█▀██▄ ████████████  ▄▄█▀██▀███▄███ "));
+console.log(chalk.bold.blue("██▀  ██   ██ ██   ██   ██    ██   ▄█▀   ██ ██▀ ▀▀ "));
+console.log(chalk.bold.blue("██        ██  ▄█████   ██    ██   ██▀▀▀▀▀▀ ██     "));
+console.log(chalk.bold.blue("██▄    ▄  ██ ██   ██   ██    ██   ██▄    ▄ ██     "));
+console.log(chalk.bold.blue(" █████▀ ▄████▄████▀██▄ ▀████ ▀████ ▀█████▀████▄   "));
 console.log(" ");
 console.log(chalk.bold.blue("Made By Aarush Paul"));
 console.log(chalk.yellow("https://github.com/aarush-paul/cli-chat"));
